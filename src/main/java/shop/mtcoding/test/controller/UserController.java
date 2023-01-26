@@ -26,9 +26,10 @@ public class UserController {
     @PostMapping("/update")
     public String update(String password, String email) {
         User principal = (User) session.getAttribute("principal");
+
         int result = userRepository.update(principal.getId(), password, email);
         if (result == 1) {
-            return "redirect:/loginForm";
+            return "redirect:/";
         } else {
             return "update";
         }

@@ -2,7 +2,6 @@
     <%@ include file="../layout/header.jsp" %>
 
             <h1>게시글 목록 페이지</h1>
-            <hr />
                 <ul style="padding: 0px;">
                     <a href="/updateForm">회원정보</a>
                     <a href="/logout">로그아웃</a>

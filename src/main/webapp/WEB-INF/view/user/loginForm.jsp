@@ -2,9 +2,9 @@
     <%@ include file="../layout/header.jsp" %>
 
         <h1>로그인 페이지</h1>
-        <hr />
+      
         <ul style="padding: 0px;">
-            <a href="/loginForm">로그인</a>
+            <a href="/">로그인</a>
             <a href="/joinForm">회원가입</a>
         </ul>
         <div class="center_box">
