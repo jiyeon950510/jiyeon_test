@@ -1,29 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    
-        <!DOCTYPE html>
-        <html lang="en">
+    <%@ include file="../layout/header.jsp" %>
 
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-            <style>
-                .flex box {
-                    display: flex;
-                }
-            </style>
-        </head>
-
-        <body>
         <h1>회원가입 페이지</h1>
         <hr />
-        <ul>
-            <div class="flex box">
+         <ul style="padding: 0px;">
                 <a href="/loginForm">로그인</a>
                 <a href="/joinForm">회원가입</a>
-            </div>
         </ul>
         <form action="/join" method="post">
             <table border="1">
@@ -42,13 +24,5 @@
             </table>
             <button type="submit">회원가입완료</button>
         </form>
-                   <br />
-            <hr />
-            <div class="footer_box">
-                <i>Created By Apple</i><br />
-                <i>부산 진구 중앙대로 708</i><br />
-            </div>
-
-        </body>
-
-        </html>
+        
+<%@ include file="../layout/footer.jsp" %>

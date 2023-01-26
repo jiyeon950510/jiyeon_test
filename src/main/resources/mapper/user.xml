@@ -4,7 +4,19 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="shop.mtcoding.test.model.UserRepository">
+    <select id="findByUsernameAndPassword" resultType="shop.mtcoding.test.model.User">
+        select * from user_tb where username = #{username} and password = #{password}
+    </select>
     <insert id="insert">
-        insert into user_tb (username, password, email, created_at) values (#{username}, #{password}, #{email}, now())
+         insert into user_tb(username, password, email, created_at) values(#{username}, #{password}, #{email}, now())
     </insert>
+     <select id="findByUserId" resultType="shop.mtcoding.test.model.User">
+        select * from user_tb where user_id=#{userId}
+    </select>
+    <update id="update">
+        update user_tb
+        set password = #{password},
+            email = #{email}
+        where id = #{id}
+    </update>
 </mapper>

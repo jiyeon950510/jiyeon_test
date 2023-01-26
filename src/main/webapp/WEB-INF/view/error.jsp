@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-    
+
         <!DOCTYPE html>
         <html lang="en">
 
@@ -18,21 +18,7 @@
 
         <body>
 
-            <h1>게시글 목록 페이지</h1>
-            <hr />
-            <ul>
-                <div class="flex box">
-                    <a href="/loginForm">회원정보</a>
-                    <a href="/joinForm">로그아웃</a>
-                </div>
-            </ul>
-            
-           <br />
-            <hr />
-            <div class="footer_box">
-                <i>Created By Apple</i><br />
-                <i>부산 진구 중앙대로 708</i><br />
-            </div>
+            <h1>잘못된 페이지 입니다.</h1>
 
         </body>
 
