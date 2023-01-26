@@ -29,6 +29,11 @@
    
                     border-bottom : dashed rgb(184, 177, 177);
                 }
+                table{
+                    display: flex;
+                    justify-content: center;
+                    text-align: center;
+                }
             </style>
         </head>
 

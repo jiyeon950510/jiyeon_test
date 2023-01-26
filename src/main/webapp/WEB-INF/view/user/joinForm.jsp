@@ -3,7 +3,7 @@
 
         <h1>회원가입 페이지</h1>
          <ul style="padding: 0px;">
-                <a href="/loginForm">로그인</a>
+                <a href="/">로그인</a>
                 <a href="/joinForm">회원가입</a>
         </ul>
         <form action="/join" method="post">
